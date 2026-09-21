@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Você ❤️</title>
+  <meta name="description" content="Um presentinho especial feito com carinho" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Loading -->
+  <div id="loader">
+    <div class="heart-loader">❤️</div>
+    <p>Carregando com carinho...</p>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">Para Você</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#historia">Nossa História</a></li>
+      <li><a href="#fotos">Fotos</a></li>
+      <li><a href="#videos">Vídeos</a></li>
+      <li><a href="#musicas">Músicas</a></li>
+      <li><a href="#cartas">Cartas</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">Um presentinho especial para</p>
+      <h1 class="hero-title">Você</h1>
+      <p class="hero-date" id="heroDate"></p>
+      <a href="#historia" class="btn-primary">Começar a jornada ❤️</a>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Nossa História -->
+  <section id="historia" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nossa História</span>
+        <h2>Cada momento ao seu lado</h2>
+        <p class="section-desc">Pequenos capítulos de um livro que mal começou...</p>
+      </div>
+      
+      <div class="timeline" id="timeline">
+        <!-- Preenchido via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria de Fotos -->
+  <section id="fotos" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Galeria</span>
+        <h2>Nossos momentos</h2>
+        <p class="section-desc">Fotos que guardam sorrisos, olhares e memórias</p>
+      </div>
+      
+      <div class="gallery" id="gallery">
+        <!-- Preenchido via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Vídeos -->
+  <section id="videos" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Vídeos</span>
+        <h2>Momentos em movimento</h2>
+        <p class="section-desc">Pequenos pedaços de tempo que eu quero guardar pra sempre</p>
+      </div>
+      
+      <div class="videos-grid" id="videosGrid">
+        <!-- Preenchido via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Músicas -->
+  <section id="musicas" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Trilha Sonora</span>
+        <h2>As músicas que tocam a gente</h2>
+        <p class="section-desc">Aquela playlist especial que só nós entendemos</p>
+      </div>
+      
+      <div class="music-container">
+        <div class="spotify-embed" id="spotifyEmbed">
+          <!-- Coloque o embed do Spotify aqui depois -->
+          <div class="spotify-placeholder">
+            <p>🎵 Espaço reservado para a playlist do Spotify</p>
+            <p class="small">Depois é só colar o código de embed no arquivo conteudo.js</p>
+          </div>
+        </div>
+        
+        <div class="music-list" id="musicList">
+          <!-- Lista de músicas via JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cartas -->
+  <section id="cartas" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Com carinho</span>
+        <h2>Palavras que eu guardei pra você</h2>
+        <p class="section-desc">Algumas coisas ficam melhores escritas...</p>
+      </div>
+      
+      <div class="cartas-grid" id="cartasGrid">
+        <!-- Preenchido via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-heart">❤️</p>
+      <p class="footer-text">Feito com todo o carinho do mundo</p>
+      <p class="footer-sub">Para a pessoa que faz meus dias melhores</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox para fotos -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img src="" alt="" id="lightboxImg" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/conteudo.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
