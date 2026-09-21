@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Você ❤️</title>
+  <meta name="description" content="Um presentinho especial feito com todo o carinho" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Corações flutuantes -->
+  <div class="hearts-container" id="heartsContainer"></div>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="heart-loader">❤️</div>
+    <p>Carregando com carinho...</p>
+  </div>
+
+  <!-- ========== TOPO / CONTADOR ========== -->
+  <header class="top-banner">
+    <p class="banner-label">A gente se conhece há:</p>
+    <div class="counter" id="counter">
+      <div class="counter-item">
+        <span class="counter-number" id="days">00</span>
+        <span class="counter-label">dias</span>
+      </div>
+      <span class="counter-sep">:</span>
+      <div class="counter-item">
+        <span class="counter-number" id="hours">00</span>
+        <span class="counter-label">horas</span>
+      </div>
+      <span class="counter-sep">:</span>
+      <div class="counter-item">
+        <span class="counter-number" id="minutes">00</span>
+        <span class="counter-label">min</span>
+      </div>
+      <span class="counter-sep">:</span>
+      <div class="counter-item">
+        <span class="counter-number" id="seconds">00</span>
+        <span class="counter-label">seg</span>
+      </div>
+    </div>
+    <p class="banner-phrase">CADA SEGUNDO AO SEU LADO É UM PRESENTE</p>
+  </header>
+
+  <!-- ========== NOTA SECRETA ========== -->
+  <section class="section" id="nota">
+    <div class="container">
+      <h2 class="section-title">Uma Nota Secreta</h2>
+      <div class="title-line"></div>
+
+      <div class="secret-note">
+        <div class="note-paper">
+          <p class="note-greeting" id="noteGreeting">Meu bem,</p>
+          <div class="note-body" id="noteBody">
+            <!-- preenchido via JS -->
+          </div>
+          <p class="note-closing" id="noteClosing">Com todo o meu carinho,</p>
+          <p class="note-signature" id="noteSignature">Seu nome</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSSAS MEMÓRIAS (POLAROIDS) ========== -->
+  <section class="section section-soft" id="memorias">
+    <div class="container">
+      <h2 class="section-title">Nossas Memórias</h2>
+      <div class="title-line"></div>
+      <p class="section-subtitle">Momentos que eu quero guardar pra sempre</p>
+
+      <div class="polaroid-gallery" id="polaroidGallery">
+        <!-- Polaroids gerados via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VÍDEOS ========== -->
+  <section class="section" id="videos">
+    <div class="container">
+      <h2 class="section-title">Momentos em Movimento</h2>
+      <div class="title-line"></div>
+      <p class="section-subtitle">Pedacinhos de tempo que eu nunca quero esquecer</p>
+
+      <div class="videos-grid" id="videosGrid">
+        <!-- Vídeos via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POR QUE VOCÊ? ========== -->
+  <section class="section section-soft" id="porque">
+    <div class="container">
+      <h2 class="section-title">Por que você?</h2>
+      <div class="title-line"></div>
+      <p class="section-subtitle">Algumas das mil razões</p>
+
+      <div class="reasons-grid" id="reasonsGrid">
+        <!-- Cards via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MÚSICAS ========== -->
+  <section class="section" id="musicas">
+    <div class="container">
+      <h2 class="section-title">Nossa Trilha Sonora</h2>
+      <div class="title-line"></div>
+      <p class="section-subtitle">As músicas que tocam a gente</p>
+
+      <div class="music-wrapper">
+        <div class="spotify-box" id="spotifyBox">
+          <div class="spotify-placeholder">
+            <span>🎵</span>
+            <p>Espaço da playlist do Spotify</p>
+            <small>Cole o link de embed no conteudo.js</small>
+          </div>
+        </div>
+
+        <div class="music-list" id="musicList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CARTAS ========== -->
+  <section class="section section-soft" id="cartas">
+    <div class="container">
+      <h2 class="section-title">Palavras Guardadas</h2>
+      <div class="title-line"></div>
+      <p class="section-subtitle">Algumas coisas ficam melhores escritas</p>
+
+      <div class="cartas-grid" id="cartasGrid"></div>
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer">
+    <p class="footer-question" id="footerQuestion">Você aceita continuar essa história comigo?</p>
+    <p class="footer-heart">❤️</p>
+    <p class="footer-text">Feito com todo o carinho do mundo</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img src="" alt="" id="lightboxImg" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/conteudo.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
