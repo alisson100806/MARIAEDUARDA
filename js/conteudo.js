@@ -110,26 +110,24 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
   ],
 
 
-  // ----- CARTAS EXTRAS -----
   cartas: [
     {
-      titulo: "Pra você",
+      titulo: "",
       texto: `Esse site é só um jeitinho de te mostrar um pouco do carinho que eu sinto.
 
 Cada foto e cada palavra aqui foi escolhida pensando em você.`,
       data: "Com carinho"
     },
     {
-      titulo: "O que eu mais gosto",
-      texto: `Seu jeito de sorrir.
-A forma como você fala das coisas que ama.
-Como você me faz sentir em paz só por existir perto de mim.`,
+      titulo: "O que eu mais gosto em você",
+      texto: `É o seu eu jeito de sorrir.
+A forma como sempre você deixa as pessoas proximas a você feliz.
+E afz a gente sentir paz, só por estar proximo a ti.`,
       data: "Sempre"
     },
     {
       titulo: "Uma promessa",
       texto: `Eu prometo continuar tentando te fazer sorrir.
-Prometo estar presente nos dias bons e nos dias difíceis.
 E prometo que esse é só o começo da nossa história.`,
       data: "Do fundo do coração"
     },
