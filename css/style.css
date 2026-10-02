@@ -360,16 +360,16 @@ img {
 }
 
 .polaroid-caption {
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  right: 0;
+  position: relative;
+  width: 100%;
+  margin-top: 12px;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 0.85rem;
   font-style: italic;
   color: var(--texto);
   padding: 0 8px;
+  box-sizing: border-box;
 }
 
 .polaroid-caption .heart {
