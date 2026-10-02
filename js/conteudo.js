@@ -95,21 +95,18 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
   // ----- POR QUE VOCÊ? (razões) -----
   razoes: [
     {
-      titulo: "Seu Coração",
-      texto: "O jeito como você cuida de quem está ao seu redor é algo lindo de se ver."
-    },
-    {
       titulo: "Seu Sorriso",
-      texto: "Ele clareia até os meus dias mais cinzentos."
+      texto: "Ele clareia até os dias mais cinzentos de qualquer pessoa ."
     },
     {
-      titulo: "Nosso Futuro",
-      texto: "Eu mal posso esperar por tudo que ainda vamos viver juntos."
+      titulo: "Sua pureza",
+      texto: "Porque sua pureza torna tudo ao redor mais bonito."
     },
     {
-      titulo: "As Pequenas Coisas",
-      texto: "Como você sabe exatamente o que eu estou pensando sem eu falar nada."
+      titulo: "Você",
+      texto: "Porque em voce encontrei um lugar para o meu coração"
     },
+   
   ],
 
 
