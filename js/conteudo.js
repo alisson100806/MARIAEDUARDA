@@ -55,6 +55,10 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
       src: "fotos/04.jpeg",
       legenda: "Juntos"
     },
+      {
+      src: "fotos/06.jpeg",
+      legenda: "Juntos"
+    },
    {
       src: "fotos/05.png",
       legenda: ""
@@ -82,7 +86,6 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
   ],
 
 
-  // ----- POR QUE VOCÊ? (razões) -----
   razoes: [
     {
       titulo: "Seu Sorriso",
