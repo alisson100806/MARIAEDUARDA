@@ -62,14 +62,13 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
       legenda: "Aquele dia 05/04/2025"
     },
     {
-      src: "fotos/foto4.jpg",
+      src: "fotos/04.jpg",
       legenda: "Juntos"
     },
-    // Adicione mais fotos copiando o bloco:
-    // {
-    //   src: "fotos/nome-da-foto.jpg",
-    //   legenda: "Legenda fofa"
-    // },
+   {
+      src: "fotos/05.png",
+      legenda: "Juntos"
+    },
   ],
 
 
