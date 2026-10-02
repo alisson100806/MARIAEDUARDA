@@ -50,8 +50,8 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
   // Depois atualize o "src" e a "legenda"
   fotos: [
     {
-      src: "fotos/foto1.jpg",
-      legenda: "O Começo"
+      src: "fotos/01.jpg",
+      legenda: "Primeira foto que você me enviou no dia 05/02/2024"
     },
     {
       src: "fotos/foto2.jpg",
