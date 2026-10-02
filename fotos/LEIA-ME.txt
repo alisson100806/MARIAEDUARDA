@@ -1,0 +1,12 @@
+📸 COLOQUE AS FOTOS AQUI
+
+Recomendações:
+- Formato: JPG ou PNG
+- Largura ideal: entre 800px e 1400px
+- Nomes simples sem espaço e sem acento
+  Exemplos: foto1.jpg, primeiro-encontro.jpg, nos2.jpg
+
+Depois de colocar as fotos, edite o arquivo:
+js/conteudo.js
+
+Na lista "fotos", coloque o caminho e a legenda de cada uma.
