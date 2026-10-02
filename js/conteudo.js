@@ -13,17 +13,17 @@ const conteudo = {
 
 Nenhuma palavra consegue expressar de verdade a profundidade do que sinto por você, mas espero que esse cantinho mostre um pouco do quanto você significa pra mim.
 
-Minha ideia inicial era ter te entregado no dia do seu aniversario porém, não deu certo kskskskssksk.
+Minha ideia inicial era ter te entregado no dia do seu aniversario,porém, não deu certo kskskskssksk.
 
 Mas vamos desejar feliz aniversario novamente .
 
 Queria aproveitar esse momento pra te desejar tudo de melhor nessa vida. Que você seja muito feliz, que consiga realizar seus objetivos, conquistar tudo aquilo que deseja e que nunca te faltem motivos pra sorrir.
 
-Você é uma pessoa muito especial pra mim, e mesmo que hoje a gente não esteja mais tão presente na minha vida, isso não muda o carinho e a importância que você teve e ainda tem pra mim.
+Você é uma pessoa muito especial pra mim, e mesmo que hoje voce não esteja mais tão presente na minha vida, isso não muda o carinho e a importância que você teve e ainda tem pra mim.
 
 Esse site é só um pouquinho do que eu queria te mostrar. Um pedacinho das coisas que a gente viveu, dos momentos que ficaram guardados e de uma história que, de alguma forma, sempre vai fazer parte de mim.
 
-Talvez um dia a vida dê algumas voltas e, quem sabe, você queira voltar a fazer parte dela de novo. Mas, independentemente do que aconteça daqui pra frente, eu espero de verdade que você seja muito feliz.
+Talvez um dia, a vida dê algumas voltas e, quem sabe, você queira voltar a fazer parte dela novamente. Mas, independentemente do que aconteça daqui pra frente, eu espero de verdade que você seja muito feliz.
 
 Espero que você goste dessa pequena surpresa. Fiz com carinho e, principalmente, porque você merece saber que é alguém muito especial pra mim.
 
