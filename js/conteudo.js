@@ -1,14 +1,4 @@
-// ============================================================
-//  ARQUIVO DE CONTEÚDO - EDITE AQUI COM CARINHO
-// ============================================================
-//
-// COMO USAR:
-// • Fotos   → Coloque os arquivos na pasta /fotos
-//             e atualize a lista "fotos" abaixo
-// • Vídeos  → Use YouTube NÃO LISTADO e cole só o ID
-// • Textos  → Edite livremente as notas, razões e cartas
-//
-// ============================================================
+
 
 const conteudo = {
 
@@ -131,7 +121,5 @@ E prometo que esse é só o começo da nossa história.`,
     },
   ],
 
-
-  // ----- FRASE FINAL DO RODAPÉ -----
   fraseFinal: "Você aceita continuar essa história comigo?"
 };
