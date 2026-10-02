@@ -1,16 +1,13 @@
-// ============================================================
-//  LÓGICA DO SITE - Polaroids + Corações + Contador
-// ============================================================
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // ----- LOADER -----
+
   setTimeout(() => {
     const loader = document.getElementById('loader');
     if (loader) loader.classList.add('hidden');
   }, 1100);
 
-  // ----- CORAÇÕES FLUTUANTES -----
   const heartsContainer = document.getElementById('heartsContainer');
   const heartSymbols = ['♥', '♡', '❤', '💕'];
 
@@ -40,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   setInterval(createHeart, 1200);
 
-  // ----- CONTADOR DE TEMPO -----
+
   function updateCounter() {
     const now = new Date();
     const start = conteudo.dataInicio;
@@ -63,7 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCounter();
   setInterval(updateCounter, 1000);
 
-  // ----- NOTA SECRETA -----
   if (conteudo.nota) {
     document.getElementById('noteGreeting').textContent = conteudo.nota.saudacao;
     document.getElementById('noteBody').textContent = conteudo.nota.texto;
@@ -71,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('noteSignature').textContent = conteudo.nota.assinatura;
   }
 
-  // ----- POLAROIDS (FOTOS) -----
+
   const gallery = document.getElementById('polaroidGallery');
 
   if (gallery && conteudo.fotos) {
@@ -106,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ----- VÍDEOS -----
+
   const videosGrid = document.getElementById('videosGrid');
 
   if (videosGrid && conteudo.videos) {
@@ -151,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ----- RAZÕES (Por que você?) -----
+
   const reasonsGrid = document.getElementById('reasonsGrid');
 
   if (reasonsGrid && conteudo.razoes) {
@@ -168,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ----- CARTAS -----
+
   const cartasGrid = document.getElementById('cartasGrid');
   if (cartasGrid && conteudo.cartas) {
     conteudo.cartas.forEach((carta, index) => {
@@ -215,7 +211,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') closeLightbox();
   });
 
-  // ----- ANIMAÇÃO DE ENTRADA -----
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -227,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
     rootMargin: '0px 0px -30px 0px'
   });
 
-  // Observa elementos depois que foram criados
+
   setTimeout(() => {
     document.querySelectorAll('.polaroid, .video-card, .reason-card, .carta').forEach(el => {
       observer.observe(el);
