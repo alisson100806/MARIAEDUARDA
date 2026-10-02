@@ -120,9 +120,7 @@ Cada foto e cada palavra aqui foi escolhida pensando em você.`,
     },
     {
       titulo: "O que eu mais gosto em você",
-      texto: `É o seu eu jeito de sorrir.
-A forma como sempre você deixa as pessoas proximas a você feliz.
-E afz a gente sentir paz, só por estar proximo a ti.`,
+      texto: `Gosto de quem você é, o seu sorriso me cativa,o seu jeito me alucina, e cada detalhe seu faz você ser unica e linda.`,
       data: "Sempre"
     },
     {
