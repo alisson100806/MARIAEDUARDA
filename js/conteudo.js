@@ -4,7 +4,7 @@ const conteudo = {
 
 
  
-  dataInicio: new Date(2024, 2, 05, 17, 20),   
+  dataInicio: new Date(2024, 1, 26, 00, 42),   
 
 
   nota: {
