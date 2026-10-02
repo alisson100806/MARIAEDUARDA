@@ -12,22 +12,36 @@
 
 const conteudo = {
 
-  // ----- DATA EM QUE VOCÊS SE CONHECERAM -----
-  // Formato: Ano, Mês (0-11), Dia, Hora, Minuto
-  // Exemplo: 15 de março de 2024 às 20:30 → (2024, 2, 15, 20, 30)
-  dataInicio: new Date(2024, 2, 05, 17, 20),   // ← ALTERE AQUI
+
+ 
+  dataInicio: new Date(2024, 2, 05, 17, 20),   
 
 
-  // ----- NOTA SECRETA (a carta principal) -----
   nota: {
     saudacao: "Meu bem,",
-    texto: `Eu queria criar algo tão bonito e único quanto o que a gente tem.
+    texto: `Eu queria criar algo tão bonito e único igual a você.
 
 Nenhuma palavra consegue expressar de verdade a profundidade do que sinto por você, mas espero que esse cantinho mostre um pouco do quanto você significa pra mim.
 
-Você é minha calma no meio do caos e minha aventura favorita. Obrigado por me escolher todos os dias.`,
+Minha ideia inicial era ter te entregado no dia do seu aniversario porém, não deu certo kskskskssksk.
+
+Mas vamos desejar feliz aniversario novamente .
+
+Queria aproveitar esse momento pra te desejar tudo de melhor nessa vida. Que você seja muito feliz, que consiga realizar seus objetivos, conquistar tudo aquilo que deseja e que nunca te faltem motivos pra sorrir.
+
+Você é uma pessoa muito especial pra mim, e mesmo que hoje a gente não esteja mais tão presente na minha vida, isso não muda o carinho e a importância que você teve e ainda tem pra mim.
+
+Esse site é só um pouquinho do que eu queria te mostrar. Um pedacinho das coisas que a gente viveu, dos momentos que ficaram guardados e de uma história que, de alguma forma, sempre vai fazer parte de mim.
+
+Talvez um dia a vida dê algumas voltas e, quem sabe, você queira voltar a fazer parte dela de novo. Mas, independentemente do que aconteça daqui pra frente, eu espero de verdade que você seja muito feliz.
+
+Espero que você goste dessa pequena surpresa. Fiz com carinho e, principalmente, porque você merece saber que é alguém muito especial pra mim.
+
+Feliz aniversário, Maria Eduarda. ❤️
+
+Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom que você merece..`,
     despedida: "Com todo o meu carinho,",
-    assinatura: "Seu Nome"          // ← Coloque seu nome aqui
+    assinatura: "Alisson"          //
   },
 
 
