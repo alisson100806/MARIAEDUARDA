@@ -297,7 +297,7 @@ img {
 
 .polaroid {
   background: white;
-  padding: 12px 12px 40px;
+  padding: 18px 12px 40px;
   box-shadow: var(--sombra-polaroid);
   border-radius: 3px;
   width: 200px;
