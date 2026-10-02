@@ -77,11 +77,12 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
     {
       youtubeId: "UPgyj8Gn3G8",                    
       titulo: "Nosso primeiro vídeo",
-    
+      descricao: ""
     },
     {
       youtubeId: "TxibzwnBGzE",
- 
+      titulo: "❤️",
+      descricao: ""
     },
     {
       youtubeId: "",
