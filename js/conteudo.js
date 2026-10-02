@@ -58,8 +58,8 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
       legenda: "Primeiro buquê que eu te entreguei"
     },
     {
-      src: "fotos/foto3.jpg",
-      legenda: "Risadas"
+      src: "fotos/03.png",
+      legenda: "Aquele dia 05/04/2025"
     },
     {
       src: "fotos/foto4.jpg",
