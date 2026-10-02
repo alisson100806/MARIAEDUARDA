@@ -72,21 +72,16 @@ Que esse novo ciclo seja incrível pra você e que a vida te traga tudo de bom q
   ],
 
 
-  // ----- VÍDEOS (YouTube não listado) -----
-  // 1. Suba o vídeo como "Não listado"
-  // 2. Pegue só o ID (a parte depois de v=)
-  // Exemplo de link: https://www.youtube.com/watch?v=ABC123xyz
-  // O ID seria: ABC123xyz
+
   videos: [
     {
-      youtubeId: "UPgyj8Gn3G8",                    // ← Cole o ID aqui
+      youtubeId: "UPgyj8Gn3G8",                    
       titulo: "Nosso primeiro vídeo",
-      descricao: "Um momento que eu quero guardar pra sempre"
+    
     },
     {
-      youtubeId: "",
-      titulo: "Momentos especiais",
-      descricao: "Porque cada segundo ao seu lado importa"
+      youtubeId: "TxibzwnBGzE",
+ 
     },
     {
       youtubeId: "",
