@@ -15,7 +15,7 @@ const conteudo = {
   // ----- DATA EM QUE VOCÊS SE CONHECERAM -----
   // Formato: Ano, Mês (0-11), Dia, Hora, Minuto
   // Exemplo: 15 de março de 2024 às 20:30 → (2024, 2, 15, 20, 30)
-  dataInicio: new Date(2024, 2, 15, 20, 30),   // ← ALTERE AQUI
+  dataInicio: new Date(2024, 2, 05, 17, 20),   // ← ALTERE AQUI
 
 
   // ----- NOTA SECRETA (a carta principal) -----
